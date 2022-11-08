@@ -62,8 +62,6 @@ def main():
 	print("How many threads? >", end=" ")
 	threads = int(input().strip())
 	wordlist = open(w, "r", errors="ignore")
-	# ssid = "university-guest"
-	# psk = "9752f8bc198e546688025be9cb5dd95d61d52e904c8ef2d7babb0cc82376aeda"
 	print('\nLoading Wordlist, please be patient...')
 	pwds = wordlist.readlines()
 	print(f'{len(pwds)} Passwords loaded.')
